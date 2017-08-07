@@ -1,0 +1,1 @@
+c:\users\ksenia\documents\visual studio 2015\Projects\WpfApplicationTest\WpfApplicationTest\bin\Debug\WpfApplicationTest.exe.config
