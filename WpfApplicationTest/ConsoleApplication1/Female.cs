@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class Men : Human
+    public class Female : Human
     {
-        public Men(string Name)
+        public Female(string Name)
         {
             this.Name = Name;
-            this.sex = Sex.Male;
+            this.sex = Sex.Female;
+            this.hasPines = false;
         }
     }
 }

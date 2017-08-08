@@ -10,8 +10,14 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Human men = new Men("Harry");
+            Human men = new Male("Harry");
             men.SayHello();
+            Female female = men.ChangeSex() as Female;
+            if (female != null)
+            {
+                female.SaySomething(new Word(female.SayName() + " have change sex! Ohoo!"));
+            }
+
             Console.ReadKey();
         }
     }
